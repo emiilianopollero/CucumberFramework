@@ -16,7 +16,7 @@ public class Driver {
     }
 
     private static WebDriver createDriver(){
-        System.setProperty("webdriver.chrome.driver","C:\\dev\\CucucmberFramework\\src\\test\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Dev\\CucumberFramework\\src\\test\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         return driver;
     }

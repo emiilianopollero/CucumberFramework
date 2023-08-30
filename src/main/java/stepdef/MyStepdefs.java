@@ -4,9 +4,10 @@ import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.asserts.SoftAssert;
 import pages.BasePage;
 import pages.GoogleHomePage;
-import org.testng.asserts.SoftAssert;
+
 
 
 public class MyStepdefs {
